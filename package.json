@@ -1,0 +1,22 @@
+{
+  "name": "baseball-cards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ccheever/baseball-cards.git",
+  "author": "Charlie Cheever <ccheever@gmail.com>",
+  "license": "MIT",
+  "repl": {
+    "ignore": {
+      "globs": [
+        ".git_repos"
+      ]
+    }
+  },
+  "devDependencies": {
+    "project-repl": "^1.5.0"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^4.3.1",
+    "@octokit/rest": "^17.6.0"
+  }
+}
